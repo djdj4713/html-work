@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            /* 화면의 전체 높이 */
+            height: 100vh;
+        }
+        .header { 
+            height: 80px;
+            background-color: steelblue;
+        }
+        .disp{
+            display: flex;
+            /* 위/아래 제외하고 나머지 다 갖음. */
+            flex: 1;
+        }
+        .nav {
+            /* grow, shrimp, base-with */
+            /* 늘지말고, 줄지도 말고, 항상 150px */
+            flex: 0 0 150px;
+            background-color: lightsteelblue;
+        }
+        .main{
+            flex: 1;
+            background-color: whitesmoke;
+        }
+        .ad{
+            flex: 0 0 150px;
+            background-color: lightsteelblue;
+        }
+        .footer{
+            height: 60px;
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header"></div>
+        <div class="disp">
+            <div class="nav"></div>
+            <div class="main"
+            style="column-count: 3;
+            column-width: 200px;
+            column-gap: 20px;
+            column-rule: 1px solid red;
+            ">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit voluptate laborum doloremque, enim nesciunt voluptatum dolores soluta cum itaque magni. Pariatur facere officia harum et necessitatibus ullam nostrum consequuntur perspiciatis.
+                    Inventore voluptate similique laudantium? Consequatur nisi obcaecati libero illum accusantium recusandae eos quo voluptatem aut est non eum aspernatur quae ipsam nobis, incidunt quos quasi error natus. Enim, dolores commodi.
+                    Quaerat earum harum dignissimos ut a ipsum placeat dolorem, dolor saepe debitis ullam sit assumenda sed totam repellendus quas, laudantium deserunt hic quam dolores, laboriosam soluta velit ducimus? Magni, at.
+                    Veniam nam saepe odit animi assumenda voluptatem corrupti accusamus quisquam tempore porro nemo, vel illo neque ab modi adipisci expedita? Tenetur, magnam exercitationem! Deserunt laudantium voluptatem cupiditate. Aliquam, perspiciatis sunt.
+                    Eos quos maiores, laboriosam amet qui fuga repudiandae voluptatem porro, expedita facilis quia blanditiis veniam laborum! Cum commodi cumque adipisci ut? Porro maiores beatae dignissimos, veniam accusantium laboriosam non eveniet.
+                    Accusantium magni velit rem quidem tempore eveniet veritatis, enim, dignissimos error repellendus harum. Error eaque nulla quod dolores, quas quia optio ipsam officia maiores! Sit, asperiores! Vel, quod! Eius, a.
+                    Repellat possimus magnam accusantium quo, libero doloremque similique consectetur ab expedita. Earum voluptatibus beatae, hic labore suscipit distinctio voluptatem repudiandae doloribus? Ipsam illo rerum iste repudiandae, animi harum corporis ratione.
+                    Ea praesentium nesciunt repudiandae? Animi in beatae repellendus laboriosam reiciendis aut esse voluptate. Dolorum ab voluptatum soluta velit mollitia nostrum, molestiae cupiditate laudantium aliquid culpa ducimus similique nulla quo quis!
+                    Necessitatibus, adipisci. Magni, quam. Doloribus molestiae magni, laborum totam, perferendis, nostrum quod odit quas nesciunt facere quibusdam voluptas ullam quasi repudiandae! A ullam at facilis ut quis, vero ipsam distinctio?
+                    Nemo, rerum! Consequatur ab minus natus molestias alias recusandae error rem dolore reiciendis magni quia architecto excepturi, deleniti eveniet doloremque ex facere dicta quidem voluptates non voluptate neque, molestiae vel.
+                    Labore saepe distinctio consectetur incidunt minima pariatur suscipit ad eligendi placeat nemo fugit quibusdam officia reiciendis quos, corporis ipsum sapiente assumenda voluptate! Recusandae illo pariatur doloribus, dolorum praesentium vitae ipsa.
+                    Praesentium magnam exercitationem tempora laboriosam accusantium earum inventore laborum explicabo omnis odit nostrum dicta reiciendis, repudiandae temporibus eligendi eum vero. Consequuntur placeat cum modi ipsam eaque mollitia sapiente praesentium possimus.
+                    Eaque distinctio voluptates nisi itaque pariatur, amet provident? Maiores explicabo fugiat autem architecto delectus, saepe voluptate nisi incidunt illo doloribus, dolorem sit distinctio ullam quam. Voluptas culpa assumenda quos reiciendis?
+                    Tempore minus non reiciendis accusantium commodi iusto, autem eum dolore. Illo laborum impedit ipsa, quam dolores ex, voluptatem laudantium perspiciatis, odit aut blanditiis commodi sint illum quibusdam a id non.
+                    Non laudantium nam perferendis praesentium, eos veniam, dicta voluptatibus corrupti fuga nostrum aperiam et officia distinctio delectus iste. Voluptatibus cum repudiandae facere necessitatibus eveniet. Quod, at corrupti! Labore, consectetur illum?
+                    Neque, rerum veritatis eaque nesciunt, quae tempora sit consequuntur tenetur dolorem excepturi doloremque consectetur iste. Totam, vero temporibus eius facilis consequatur quod corporis quam ipsum, est necessitatibus atque illo iusto?
+                    Illum, animi? Nisi, temporibus harum architecto odio distinctio dolorem consequatur mollitia aspernatur dolor unde quae magnam impedit consectetur molestias ratione officiis tenetur atque velit accusamus. Architecto ipsam suscipit in labore?
+                    Adipisci sit id nostrum nobis, minima, optio iure repellendus illum a, dignissimos dolores eaque. Vero fugiat perspiciatis praesentium animi obcaecati dignissimos facere excepturi placeat non dolores autem ipsum, laudantium id.
+                    Soluta iure vero dolorem non fuga, perspiciatis corrupti et omnis magnam? Assumenda similique maxime optio quod amet modi officia porro nesciunt voluptate quisquam ipsum, enim autem? A tempore ducimus beatae.
+                    Animi sit tenetur, nobis accusantium sed expedita distinctio dolorum quam velit praesentium ullam dolores doloremque asperiores modi ratione hic. Voluptatum omnis accusamus veritatis suscipit voluptate sed consectetur qui optio corporis!
+                </p>
+            </div>
+            <div class="ad"></div>
+        </div>
+        <div class="footer"></div>
+    </div>
+</body>
+</html>
